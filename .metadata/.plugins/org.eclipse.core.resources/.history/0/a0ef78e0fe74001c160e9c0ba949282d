@@ -75,7 +75,6 @@ public class Main {
 			if(daftarAnggota.get(i).getNamaAnggota().equals(pencarian)) {
 				daftarAnggota.get(i).perkenalan();
 				mainmenu();
-				return;
 			}
 		}
 		System.out.println("Anggota tidak ditemukan");
